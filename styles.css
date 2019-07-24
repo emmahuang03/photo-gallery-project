@@ -1,0 +1,33 @@
+*{
+  padding: 5px;
+  margin: 5px;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px dotted lightblue;
+  height: 50px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: lightpink;
+
+}
+
+img {
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+  max-width: 50%;
+  flex: 50%;
+  object-fit: cover;
+}
