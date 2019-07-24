@@ -24,8 +24,7 @@ body {
 }
 
 img {
-  display: flex;
-  flex-wrap: wrap;
+  padding:10px;
   display: inline-block;
   max-width: 50%;
   flex: 50%;
