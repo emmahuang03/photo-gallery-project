@@ -1,6 +1,6 @@
 *{
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
+  margin: 10px;
   font-family: Arial;
   box-sizing: border-box;
 }
@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
   border: 10px dotted lightblue;
   height: 50px;
 }
@@ -20,13 +21,22 @@
 
 body {
   background-color: lightpink;
+}
 
+section {
+  display: flex;
+  display: inline-block;
+  height: 100%;
+  flex: 50%;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 img {
-  padding:10px;
+  margin: 10px;
+  border: 3px solid violet;
   display: inline-block;
-  max-width: 50%;
+  height: 50%;
   flex: 50%;
   object-fit: cover;
 }
